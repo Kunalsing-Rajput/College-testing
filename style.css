@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto';
+}
+.nav-bar{
+    height: 40px;
+    background-color: #000000;
+    padding: 15px;
+    font-weight: 500;
+    font-family: 'Roboto';
+    display: flex;
+    align-items: center;        /* vertical center */
+    justify-content: right;
+}
+/* Home Section */
+#home {
+    background-color: #f4f4f4;
+    text-align: center;
+    background-image: url('https://th.bing.com/th/id/R.d67fdc14a363b5e67986e40950ace972?rik=Vbh211UWMa2Ucw&riu=http%3a%2f%2f316outdoorshowers.com%2fcdn%2fshop%2ffiles%2f316_banner_1.jpg%3fv%3d1736901377&ehk=wk3TpKC0rFf36w%2flRVk7Bykh8g891wZmty0hMCd72Ag%3d&risl=&pid=ImgRaw&r=0');
+    height: 500px;
+    background-size: cover;
+    color: white;
+    font-family: 'Roboto';
+}
+.nav-elem{
+    color: white;
+    text-decoration: none;
+    display:inline;
+    margin-left: 11px;
+    margin-right: 12px;
+    font-size: 21px;
+}
+.product-cont{
+    background-color: rgb(213, 222, 231);
+    height: 500px;
+    margin: 7px;
+    border-radius: 8px;
+}
+.about-cont{
+    background-color: rgb(213, 222, 231);
+    height: 500px;
+    margin: 7px;
+    border-radius: 8px;
+}
+.home-cont{
+    display: flex;
+    flex-direction: column;   /* 👈 this fixes it */
+    align-items: flex-start;
+    justify-content: center;  /* or left/start if you want */
+    height: 100%;
+    margin-left: 40px;
+}
+.home-head{
+    font-size: 90px;
+}
+.para-head{
+    padding-left: 15px;
+}
+.product-cont-left{
+    background-image: url('https://cdn.ecommercedns.uk/files/7/228247/4/5070124/stainless-steel-outdoor-shower-luxury-bathroom-garden-post-b76-m.jpgaaaaaa');
+    height: 100%;
+    width: 40%;
+    background-size: cover;
+}
