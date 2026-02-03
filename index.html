@@ -4,7 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shower Website</title>
-    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">    
+<link rel="stylesheet" href="style.css">
+
 </head>
 <body>
 
@@ -26,26 +30,82 @@
             <p class="para-head">- Life's Good with Showers</p>
         </div>
     </div>
-    <h1>Products</h1>
+    <h1 class="product-head">Products</h1>
     <div id="products">
         <div class="product-cont">
-            <!-- <div class="product-cont-left"></div> -->
-             Lots of products
+            <div class="product-card">
+                <img src="https://s7d1.scene7.com/is/image/kohlergbhcloudprod/Four-(4)-Column-Content-aaf16839:Four-Column-Content-Mobile-Landscape-Regular?wid=380&hei=507&dpr=off" class="product-img">
+                <h1 class="product-card-head">Product Name</h1>
+                <p class="product-card-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi rem libero animi sequi nemo?</p>
+            </div>
+            <div class="product-card">
+                <img src="https://s7d1.scene7.com/is/image/kohlergbhcloudprod/Four-(4)-Column-Content-aaf16840:Four-Column-Content-Mobile-Landscape-Regular?wid=380&hei=507&dpr=off" class="product-img">
+                <h1 class="product-card-head">Product Name</h1>
+                <p class="product-card-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi rem libero animi sequi nemo?</p>
+            </div>
+            <div class="product-card">
+                <img src="https://s7d1.scene7.com/is/image/kohlergbhcloudprod/Four-(4)-Column-Content-aaf16834:Four-Column-Content-Mobile-Landscape-Regular?wid=380&hei=507&dpr=off" class="product-img">
+                <h1 class="product-card-head">Product Name</h1>
+                <p class="product-card-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi rem libero animi sequi nemo?</p>
+            </div>
+            <div class="product-card">
+                <img src="https://s7d1.scene7.com/is/image/kohlergbhcloudprod/Content-4-Up-Slider-Banner-Divider-aaf14672:Content-Four-Up-Slider-Banner-Divider-Mobile?wid=226&hei=301&dpr=off" class="product-img">
+                <h1 class="product-card-head">Product Name</h1>
+                <p class="product-card-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi rem libero animi sequi nemo?</p>
+            </div>
         </div>
     
     </div>
 
-    <div id="about">
-        <div class="about-cont">
+    <section class="about-section" id="about">
+  <div class="about-container">
+    <h2>About Us</h2>
+    <p class="about-tagline">Designed for comfort. Built for elegance.</p>
 
-        </div>
+    <div class="about-content">
+      <p>
+        At <strong>Shower Website</strong>, we believe that a shower is more than
+        just a routine — it’s a daily moment of relaxation and renewal.
+      </p>
+      <p>
+        Our products combine modern design, premium materials, and innovative
+        engineering to deliver an outdoor and indoor shower experience that
+        feels effortless, luxurious, and timeless.
+      </p>
+      <p>
+        Every shower is crafted to elevate your space while respecting nature,
+        durability, and comfort.
+      </p>
+    </div>
+  </div>
+</section>
+
+
+ <section class="contact-section" id="contact">
+  <div class="contact-container">
+    <div class="contact-text">
+      <h2>Contact Us</h2>
+      <p>
+        Have questions or want to learn more about our products?
+        We’d love to hear from you.
+      </p>
+
+      <div class="contact-info">
+        <p><strong>Email:</strong> info@showerwebsite.com</p>
+        <p><strong>Phone:</strong> +1 234 567 890</p>
+        <p><strong>Location:</strong> Worldwide Delivery</p>
+      </div>
     </div>
 
-    <div id="contact">
-        <div class="contact-cont">
-
-        </div>
-    </div>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+</section>
+>
 
 </body>
 </html>

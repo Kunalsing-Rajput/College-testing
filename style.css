@@ -1,8 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+
 *{
     padding: 0px;
     margin: 0px;
     font-family: 'Roboto';
+    
+}
+body{
+    background-color:#000000;
 }
 .nav-bar{
     height: 40px;
@@ -31,18 +39,19 @@
     margin-left: 11px;
     margin-right: 12px;
     font-size: 21px;
+    font-weight: 300;
+
 }
 .product-cont{
-    background-color: rgb(213, 222, 231);
-    height: 500px;
-    margin: 7px;
+    height: auto;
+    display: flex;
+    text-align: center;
     border-radius: 8px;
+    
+    justify-content: center;
 }
 .about-cont{
-    background-color: rgb(213, 222, 231);
-    height: 500px;
-    margin: 7px;
-    border-radius: 8px;
+    
 }
 .home-cont{
     display: flex;
@@ -53,10 +62,13 @@
     margin-left: 40px;
 }
 .home-head{
-    font-size: 90px;
+    font-size: 100px;
+    font-weight: 300;
+      font-family: 'Roboto', serif;
 }
 .para-head{
     padding-left: 15px;
+    font-weight: 300;
 }
 .product-cont-left{
     background-image: url('https://cdn.ecommercedns.uk/files/7/228247/4/5070124/stainless-steel-outdoor-shower-luxury-bathroom-garden-post-b76-m.jpgaaaaaa');
@@ -64,3 +76,144 @@
     width: 40%;
     background-size: cover;
 }
+.product-head{
+    margin-top: 200px;
+    margin-left: 130px;
+    font-size:38px;
+    color: white;
+    font-size: 55px;
+    margin-bottom: 40px;
+    font-weight: 300;
+}
+.product-card{
+    width: 300px;
+    height: 100%;
+    background-color:#000000;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    color:white;
+    border-radius: 8px;
+    text-align: center;
+    margin: 15px;
+    border-width: 0.5px;
+}
+.product-img{
+    height: 350px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+.product-card-head{
+    margin: 5px;
+    margin-top: 14px;
+    font-size: 25px;
+    margin-bottom: 16px;
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+
+}
+.product-card-para{
+    margin: 8px;
+    font-size: 16px;
+    margin-bottom: 18px;
+    color: #aaa;
+    font-weight: 200;
+}
+.about-section {
+  background: #000;
+  color: #fff;
+  padding: 100px 8%;
+}
+
+.about-container {
+  max-width: 1000px;
+}
+
+.about-section h2 {
+  font-size: 53px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  font-weight: 300;
+}
+
+.about-tagline {
+  font-size: 18px;
+  color: #aaa;
+  margin-bottom: 40px;
+}
+
+.about-content p {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #ddd;
+  margin-bottom: 20px;
+}
+.contact-section {
+  background: #000;
+  color: #fff;
+  padding: 100px 8%;
+  border-top: 1px solid #222;
+}
+
+.contact-container {
+  display: flex;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.contact-text {
+  flex: 1;
+  min-width: 280px;
+}
+
+.contact-text h2 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.contact-text p {
+  color: #ccc;
+  line-height: 1.7;
+  margin-bottom: 30px;
+}
+
+.contact-info p {
+  margin-bottom: 10px;
+  color: #aaa;
+}
+
+.contact-form {
+  flex: 1;
+  min-width: 280px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea {
+  background: #111;
+  border: 1px solid #333;
+  color: #fff;
+  padding: 14px;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: #777;
+}
+
+.contact-form button {
+  background: #fff;
+  color: #000;
+  border: none;
+  padding: 14px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-form button:hover {
+  background: #ccc;
+}
+
