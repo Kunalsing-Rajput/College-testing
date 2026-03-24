@@ -19,7 +19,7 @@ body{
     font-weight: 500;
     font-family: 'Roboto';
     display: flex;
-    align-items: center;        /* vertical center */
+    align-items: center;       
     justify-content: right;
 }
 /* Home Section */
@@ -47,7 +47,7 @@ body{
     display: flex;
     text-align: center;
     border-radius: 8px;
-    
+
     justify-content: center;
 }
 .about-cont{
@@ -55,9 +55,9 @@ body{
 }
 .home-cont{
     display: flex;
-    flex-direction: column;   /* 👈 this fixes it */
+    flex-direction: column;  
     align-items: flex-start;
-    justify-content: center;  /* or left/start if you want */
+    justify-content: center;  
     height: 100%;
     margin-left: 40px;
 }
